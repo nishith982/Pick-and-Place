@@ -92,7 +92,7 @@ Camera Capture → Color Detection → Object Localization →
 Pick Command → Gripper Actuation → Place Command
 ```
 <p align="center">
-  <img src="./images/color_detect.gif" width="500"/>
+  <img src="./Images/mediapipe.gif" width="500"/>
 </p>
 
 ## Technologies Used
