@@ -126,5 +126,5 @@ A fully functional **vision-guided pick-and-place system** capable of:
 
 ## Author
 
-**Nishith**  
+**Nishith K**  
 Robotics Student | Autonomous Systems Enthusiast
