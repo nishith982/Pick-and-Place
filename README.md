@@ -7,7 +7,7 @@ This project focuses on designing and implementing a **vision-based pick-and-pla
 The system autonomously identifies colored objects using a camera and places them into their respective **color-coded baskets**.
 
 <p align="center">
-  <img src="Images/Cobot_280pi.jpg" width="400" height="650"/>
+  <img src="Images/Cobot_280pi.jpeg" width="400" height="650"/>
 </p>
 
 ## Project Aim
@@ -73,7 +73,7 @@ By the end of the project, you are expected to successfully demonstrate the foll
 * Synchronization of gripper action with arm movement
 
 
-![Gripper](images/gripper_design.png)
+![Gripper](images/Gripper.jpg)
 
 ![Pick and Place Operation](images/attachments.png)
 
