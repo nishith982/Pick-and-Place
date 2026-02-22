@@ -53,7 +53,7 @@ By the end of the project, you are expected to successfully demonstrate the foll
 * Accurate movement between pick and place locations
 * Smooth and repeatable operation
 
-![Pick and Place Operation](images/cobot_arm_image.png)
+![Pick and Place Operation](Images/cobot_arm_image.png)
 
 ### 2️Camera Integration
 
@@ -73,7 +73,7 @@ By the end of the project, you are expected to successfully demonstrate the foll
 * Synchronization of gripper action with arm movement
 
 
-![Gripper](images/Gripper.jpg)
+![Gripper](Images/Gripper.jpg)
 
 ![Pick and Place Operation](images/attachments.png)
 
