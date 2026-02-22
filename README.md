@@ -53,7 +53,9 @@ By the end of the project, you are expected to successfully demonstrate the foll
 * Accurate movement between pick and place locations
 * Smooth and repeatable operation
 
-![Pick and Place Operation](Images/cobot_arm_image.png)
+<p align="center">
+  <img src="Images/pick_and_place.gif" width="400" height="650"/>
+</p>
 
 ### 2️Camera Integration
 
