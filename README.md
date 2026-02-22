@@ -7,7 +7,7 @@ This project focuses on designing and implementing a **vision-based pick-and-pla
 The system autonomously identifies colored objects using a camera and places them into their respective **color-coded baskets**.
 
 <p align="center">
-  <img src="Images/inside_cobot.jpg" width="400" height="650"/>
+  <img src="Images/Cobot_280pi.jpg" width="400" height="650"/>
 </p>
 
 ## Project Aim
@@ -30,7 +30,7 @@ During this project, you will gain hands-on experience in:
 * Hardware–Software Integration
 
 <p align="center">
-  <img src="Images/cobot.jpg" width="400" height="650"/>
+  <img src="Images/Workspace.jpg" width="400" height="650"/>
 </p>
 ---
 
