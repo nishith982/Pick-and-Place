@@ -98,7 +98,7 @@ The workspace contains colored objects that the robot detects and sorts into the
 
 # 🔩 Internal Components
 
-![Inside Cobot](Images/Inside_cobot.jpg)
+![Inside Cobot](Images/Inside_cobot_1.jpg)
 
 ![Motors](Images/Motors.jpg)
 
