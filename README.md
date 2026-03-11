@@ -124,16 +124,12 @@ Rubber padding is used to increase friction and prevent objects from slipping.
 
 ## 🎥 Pick and Place Demo
 
-![Pick and Place Demo](Images/pick_and_place.gif)
-
 Full video:  
 [▶ Watch Full Video](Videos/Pick_and_Place.mp4)
 
 ---
 
 ## 🎥 Gesture Control Demo
-
-![Gesture Control Demo](Images/gesture_control.gif)
 
 Full video:  
 [▶ Watch Full Video](Videos/Gesture_control.mp4)
@@ -142,16 +138,12 @@ Full video:
 
 ## 🎥 Teach and Playback Demo
 
-![Teach and Playback Demo](Images/teach_and_playback.gif)
-
 Full video:  
 [▶ Watch Full Video](Videos/Teach_and_Playback.mp4)
 
 ---
 
 ## 🎥 Blockly Programming Demo
-
-![Blockly Programming Demo](Images/blockly_demo.gif)
 
 Full video:  
 [▶ Watch Full Video](Videos/Blockly.mov)
