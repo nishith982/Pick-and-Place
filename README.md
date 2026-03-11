@@ -30,7 +30,7 @@ During this project, you will gain hands-on experience in:
 * Hardware–Software Integration
 
 <p align="center">
-  <img src="Images/Workspace.jpg" width="400" height="650"/>
+  <img src="Images/Workspace.jpeg" width="400" height="650"/>
 </p>
 ---
 
