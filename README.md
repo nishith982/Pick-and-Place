@@ -92,7 +92,7 @@ This image shows the hardware connections of the cobot arm including power, cont
 
 ![Workspace](Images/Workspace.jpeg)
 
-The workspace contains colored objects that the robot detects and sorts into the correct baskets.
+The workspace contains colored objects that the robot detects and sorts into the correct containers.
 
 ---
 
