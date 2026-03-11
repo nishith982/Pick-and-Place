@@ -1,42 +1,35 @@
-# Pick and Place Automation Using Cobot Arm with Vision-Based Color Detection
+# 🤖 Pick and Place Automation Using Cobot Arm with Vision-Based Color Detection
 
-## Overview
+## 📌 Overview
+This project demonstrates a **vision-based pick-and-place automation system** using the **Cobot Arm 280**.  
+The system uses a camera and computer vision techniques to detect colored objects and automatically place them into their corresponding baskets.
 
-This project focuses on designing and implementing a **vision-based pick-and-place system** using a **Collaborative Robot Arm (Cobot Arm 280)**.
-
-The system autonomously identifies colored objects using a camera and places them into their respective **color-coded baskets**.
-
-<p align="center">
-  <img src="Images/Cobot_280pi.jpeg" width="400" height="650"/>
-</p>
-
-## Project Aim
-
-To develop an automated pick-and-place solution where the cobot arm:
-
-* Detects objects based on **color**
-* Picks them using a **gripper mechanism**
-* Places them accurately into corresponding **color baskets**
+The project integrates **robotics, computer vision, and automation** to create an intelligent object sorting system.
 
 ---
 
-## Technical Objectives & Learning Outcomes
+# 🎯 Project Aim
+Develop an automated system where the cobot arm can:
 
-During this project, you will gain hands-on experience in:
+- Detect objects based on color
+- Pick them using a gripper mechanism
+- Place them accurately into corresponding color baskets
 
-* Industrial and Collaborative Robotics
-* Robot Arm Kinematics & Motion Planning
-* Vision-Based Automation using OpenCV
-* Hardware–Software Integration
-
-<p align="center">
-  <img src="Images/Workspace.jpeg" width="400" height="650"/>
-</p>
 ---
 
-## Software Requirement
+# 🧠 Technologies Used
 
-To enable communication with the Cobot Arm 280, you need to install the required Python library:
+- Python
+- OpenCV
+- pymycobot Library
+- Cobot Arm 280
+- Camera Module
+
+---
+
+# ⚙️ Installation
+
+Install the required Python library:
 
 ```bash
 pip install pymycobot --upgrade
@@ -44,89 +37,157 @@ pip install pymycobot --upgrade
 
 ---
 
-## Project Deliverables
+# 📂 Project Structure
 
-By the end of the project, you are expected to successfully demonstrate the following:
-
-### 1️Pick and Place Using Cobot Arm 280
-
-* Accurate movement between pick and place locations
-* Smooth and repeatable operation
-
-<p align="center">
-  <img src="Images/pick_and_place.gif" width="400" height="650"/>
-</p>
-
-### 2️Camera Integration
-
-* Mounting and calibration of camera for object detection
-* Capturing real-time video frames for processing
-
-### 3️Robot Fixing & Setup
-
-* Mechanical fixing and workspace setup of the cobot arm
-* Ensuring safety and stability
-
-![Pick and Place Operation](images/cobot_arm.jpg)
-
-### 4️Gripper Control
-
-* Opening and closing of the gripper
-* Synchronization of gripper action with arm movement
-
-
-<p align="center">
-  <img src="Images/Gripper_1.png" width="400" height="650"/>
-</p>
-
-### 5️Computer Vision with OpenCV
-
-* Color detection using HSV / RGB color space
-* Object segmentation and contour detection
-* Determining object position for robotic picking
-
----
-
-## System Workflow
-
-```text
-Camera Capture → Color Detection → Object Localization →
-Pick Command → Gripper Actuation → Place Command
 ```
-<p align="center">
-  <img src="./Images/mediapipe.gif" width="500"/>
-</p>
-
-## Technologies Used
-
-* Cobot Arm 280
-* Camera Module
-* OpenCV
-* Python
-* Robot Control Interface
+PROJECT_UPDATE
+│
+├── Codes
+│   ├── hand_gesture_receiver.py
+│   ├── Hand_gesture_sender.py
+│   ├── initial.py
+│   ├── multiple.py
+│   ├── Pick_and_Place.py
+│   └── servo.py
+│
+├── Images
+│   ├── Cobot_280pi.jpeg
+│   ├── Connections.jpeg
+│   ├── Gripper.png
+│   ├── Gripper_1.png
+│   ├── Gripper_2.png
+│   ├── Inside_cobot.jpg
+│   ├── Inside_cobot_1.jpg
+│   ├── Motors.jpg
+│   └── Workspace.jpeg
+│
+├── Videos
+│   ├── Blockly.mov
+│   ├── Gesture control.mp4
+│   ├── Pick an Place.mp4
+│   └── Teach and Playback.mp4
+│
+└── README.md
+```
 
 ---
 
-## Expected Outcome
+# 🦾 Cobot Arm
 
-A fully functional **vision-guided pick-and-place system** capable of:
+![Cobot Arm](Images/Cobot_280pi.jpeg)
 
-* Identifying colored objects
-* Picking them precisely
-* Sorting them into respective color baskets
+The **Cobot 280 Pi** is a 6-DOF collaborative robotic arm used for robotics research and automation.
 
 ---
 
-## Future Scope
+# 🔌 Hardware Connections
 
-* Shape-based sorting
-* AI-based object classification
-* Conveyor belt integration
-* ROS-based automation
+![Connections](Images/Connections.jpeg)
+
+This image shows the hardware connections of the cobot arm including power, controller, and communication setup.
 
 ---
 
-## Author
+# 🧰 Workspace Setup
+
+![Workspace](Images/Workspace.jpeg)
+
+The workspace contains colored objects that the robot detects and sorts into the correct baskets.
+
+---
+
+# 🔩 Internal Components
+
+![Inside Cobot](Images/Inside_cobot.jpg)
+
+![Motors](Images/Motors.jpg)
+
+The robotic arm contains multiple servo motors and internal control electronics that allow precise motion control.
+
+---
+
+# ✋ Gripper Mechanism
+
+![Gripper](Images/Gripper.png)
+
+![Gripper](Images/Gripper_1.png)
+
+![Gripper](Images/Gripper_2.png)
+
+The gripper is controlled using a **servo motor with PWM signals** to open and close for object gripping.
+
+Rubber padding is used to increase friction and prevent objects from slipping.
+
+---
+
+# 🎥 Project Demonstrations
+
+## Blockly Programming
+
+![Blockly Demo](Videos/Blockly.mov)
+
+---
+
+## Gesture Control
+
+![Gesture Control](Videos/Gesture%20control.mp4)
+
+---
+
+## Pick and Place Operation
+
+![Pick and Place](Videos/Pick%20an%20Place.mp4)
+
+---
+
+## Teach and Playback Mode
+
+![Teach and Playback](Videos/Teach%20and%20Playback.mp4)
+
+---
+
+# 🔄 System Workflow
+
+```
+Camera Capture
+      ↓
+Color Detection (OpenCV)
+      ↓
+Object Localization
+      ↓
+Pick Command
+      ↓
+Gripper Actuation
+      ↓
+Place Command
+```
+
+---
+
+# 🚀 Features
+
+- Vision-based color detection
+- Autonomous pick and place
+- Gesture-based control
+- Teach and playback functionality
+- Smooth robotic motion
+
+---
+
+# 📈 Future Scope
+
+- Shape-based object sorting
+- AI-based object detection
+- Conveyor belt integration
+- ROS-based automation
+- Multi-object detection
+
+---
+
+# 👨‍💻 Author
 
 **Nishith K**  
-Robotics Student | Autonomous Systems Enthusiast
+Robotics Student | Autonomous Systems Enthusiast  
+
+GitHub:  
+https://github.com/nishith982
