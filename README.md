@@ -75,9 +75,9 @@ By the end of the project, you are expected to successfully demonstrate the foll
 * Synchronization of gripper action with arm movement
 
 
-![Gripper](Images/Gripper.jpg)
-
-![Pick and Place Operation](images/attachments.png)
+<p align="center">
+  <img src="Images/Gripper_1.png" width="400" height="650"/>
+</p>
 
 ### 5️Computer Vision with OpenCV
 
